@@ -1,0 +1,131 @@
+/*Styles for a body specifies a background color*/
+
+body {
+  background-image: linear-gradient( #E63333, black);
+}
+
+/* Style for container centes the page and sets */
+#container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Style for header specifies top and bottom margins, background color, rounded border, shadow and alignmnent */
+  header {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      background-color: #000000;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .responsive {
+      width: 60%;
+      height: auto;
+    }
+
+/* Style for nav specifies text properties, padding, margins, and borders */
+    nav {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+        padding: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border-radius: 150px;
+        border-color: #000000;
+        border-top: 5px solid #000000;
+        border-bottom: 5px solid #000000;
+        list-style-type: none;
+      }
+
+    li a{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+      }
+
+    li a:hover{
+      color:red;
+    }
+
+      li {
+        padding: 10px;
+        display: inline;
+      }
+      ul {
+        background-color: none;
+      }
+/* Style for main specfies a block display,text properties,margins, padding, rounded border, and shadow */
+      main {
+          display: block;
+          text-align: left;
+          font-family: Courier, arial, sans-serif;
+          font-size: 2em;
+          margin-top: 25px;
+          margin-bottom: 10px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: #E63333;
+        }
+
+/*This code is for the Contact Page*/
+
+        /* Style inputs with type="text", select elements and textareas */
+        input[type=text], select, textarea {
+          width: 100%; /* Full width */
+          padding: 12px; /* Some padding */
+          border: 1px solid #ccc; /* Gray border */
+          border-radius: 4px; /* Rounded borders */
+          box-sizing: border-box; /* Make sure that padding and width stays in place */
+          margin-top: 6px; /* Add a top margin */
+          margin-bottom: 16px; /* Bottom margin */
+          resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+
+        /* Add a background color and some padding around the form */
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+      /* Style for footer specifies font size, text alignment, and top margin */
+      footer {
+          font-size: .70em;
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        .equip {
+            float: left;
+            padding-right: 20px;
+          }
+
+            ul {
+              margin-bottom: 50px;
+              list-style-position: inside;
+            }
+
+            dt{
+              font-weight: bold;
+            }
+
+            dd{
+              padding-bottom: 20px;
+            }
